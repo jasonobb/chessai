@@ -7,3 +7,5 @@ HEIGHT = 800
 COL = 8
 ROW = 8
 Square_Size = WIDTH//COL
+WHITE = (255,255,255)
+BLACK = (0,0,0)
