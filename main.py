@@ -14,7 +14,10 @@ class MAIN:
 
     def run(self):
 
-        self.game.showBackground(self.screen)
+        game = self.game
+        screen = self.screen
+
+        game.showBackground(screen)
         while True:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
