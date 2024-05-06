@@ -16,8 +16,8 @@ class MAIN:
 
         game = self.game
         screen = self.screen
-
         game.showBackground(screen)
+        game.showPieces(screen)
         while True:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
